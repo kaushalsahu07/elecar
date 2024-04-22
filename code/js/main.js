@@ -39,4 +39,20 @@ let swiper = new Swiper(".popular-section", {
     },
   },
 });
+//
+let mixer = mixitup('.all-car', {
+  selectors: {
+      target: '.cars'
+  },
+  animation: {
+      duration: 300
+  }
+});
+//
+let carLogo = document.querySelectorAll('.car-logo');
 
+function activeLogo() {
+  carLogo.forEach(l=> l.classList.remove("active-fc"))
+  this.classList.add("active-fc")
+}
+carLogo.forEach(l => l.addEventListener('click', activeLogo))
