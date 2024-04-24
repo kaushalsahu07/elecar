@@ -23,3 +23,6 @@ body{
 .active-fc{
     background: hsl(219, 69%, 56%) !important;
 }
+.show-scroll{
+    bottom: 15%;
+}

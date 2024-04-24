@@ -1,3 +1,4 @@
+//nav menu
 let navIcon = document.querySelector("#nav-icon");
 let navUl = document.querySelector("#navUl");
 
@@ -10,7 +11,7 @@ function nav() {
     navUl.style.left = "-100%";
   }
 }
-//
+//slider 
 let swiper = new Swiper(".popular-section", {
   loop: true,
   spaceBetween: 24,
@@ -39,7 +40,7 @@ let swiper = new Swiper(".popular-section", {
     },
   },
 });
-//
+//car mixitup
 let mixer = mixitup('.all-car', {
   selectors: {
       target: '.cars'
@@ -48,7 +49,7 @@ let mixer = mixitup('.all-car', {
       duration: 300
   }
 });
-//
+//active car option
 let carLogo = document.querySelectorAll('.car-logo');
 
 function activeLogo() {
@@ -56,3 +57,11 @@ function activeLogo() {
   this.classList.add("active-fc")
 }
 carLogo.forEach(l => l.addEventListener('click', activeLogo))
+
+// scroll up
+function scrollUp() {
+	const scrollUp = document.querySelector(".scroll-up");
+	if (this.scrollY >= 400) scrollUp.classList.add("show-scroll");
+	else scrollUp.classList.remove("show-scroll");
+}
+window.addEventListener("scroll", scrollUp);
