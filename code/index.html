@@ -146,7 +146,7 @@
               </div>
               <div class="home-no text-light-white-color">24°</div>
               <div class="text-smaller-font-size text-light-color">
-                TEMPERATURE
+                TEMP
               </div>
             </div>
             <!-- info-2 -->
@@ -460,13 +460,14 @@
           <div class="mx-auto">
             <div class="-z-20 absolute left-0">
               <img
-                class="max-w-[24rem]  max-sm:w-[19.5rem]"
+                class="map-img max-w-[24rem]  max-sm:w-[19.5rem]"
                 src="../code/img/map.svg"
                 alt="map image"
               />
             </div>
             <!-- car img -->
-            <div class="-z-10">
+           <div class='car-function'>
+            <div class="car-img -z-10">
               <img
                 class="w-44"
                 src="../code/img/features.png"
@@ -474,7 +475,7 @@
               />
             </div>
             <!-- car-info  1 -->
-            <div class="car-info">
+            <div class="more-car-info">
               <div
                 class="card-box w-[120px] h-24 absolute backdrop-blur-[20px] bg-[hsl(0, 0%, 100%), .1] rounded-xl top-10 left-4 text-center p-5"
               >
@@ -506,12 +507,13 @@
               </div>
             </div>
           </div>
+          </div>
         </div>
       </section>
       <!-- more Featured Luxury Cars -->
       <section id="featured" class="pt-24 mx-auto">
         <h1
-          class="popular-title text-h1-f-pc font-semibold text-white text-center"
+          class="feature-title text-h1-f-pc font-semibold text-white text-center"
         >
           Featured Luxury Cars
         </h1>
@@ -726,7 +728,7 @@
       </section>
       <!-- logos -->
       <section id="logos" class="pt-20">
-        <div class="flex flex-wrap justify-center items-center gap-5">
+        <div class="logos flex flex-wrap justify-center items-center gap-5">
           <div class="w-32 h-32 grid place-content-center rounded-lg">
             <img
               class="w-16 grayscale hover:grayscale-0"
@@ -779,11 +781,11 @@
           <!-- company name -->
           <div class="flex-col max-sm:p-2">
             <div
-              class="flex items-center text-h1-f-pc font-semibold pt-10 text-white"
+              class="footer-title flex items-center text-h1-f-pc font-semibold pt-10 text-white"
             >
               <i class="ri-steering-line"></i> Elecar
             </div>
-            <p class="text-light-white-color pt-5">
+            <p class="footer-list text-light-white-color pt-5">
               We offer the best electric cars of <br />
               the most recognized brands in <br />
               the world.
@@ -791,8 +793,8 @@
           </div>
           <!-- menu -->
           <div class="pt-10">
-            <div class="text-h1-f-pc font-semibold text-white">Company</div>
-            <ul class="pt-4">
+            <div class="footer-title text-h1-f-pc font-semibold text-white">Company</div>
+            <ul class="pt-4 footer-list">
               <li class="text-light-white-color list-none">About</li>
               <li class="text-light-white-color list-none">Cars</li>
               <li class="text-light-white-color list-none">History</li>
@@ -801,8 +803,8 @@
           </div>
           <!-- Information -->
           <div class="pt-10">
-            <div class="text-h1-f-pc font-semibold text-white">Information</div>
-            <ul class="pt-4">
+            <div class="footer-title text-h1-f-pc font-semibold text-white">Information</div>
+            <ul class="pt-4 footer-list">
               <li class="text-light-white-color list-none">Request a quote</li>
               <li class="text-light-white-color list-none">Find a dealer</li>
               <li class="text-light-white-color list-none">Contact us</li>
@@ -811,8 +813,8 @@
           </div>
           <!-- Follow us -->
           <div class="pt-10">
-            <div class="text-h1-f-pc font-semibold text-white">Follow us</div>
-            <ul class="gap-5 pt-4 flex">
+            <div class="footer-title text-h1-f-pc font-semibold text-white">Follow us</div>
+            <ul class="footer-list gap-5 pt-4 flex">
               <li class="text-light-white-color list-none text-base">
                 <i class="ri-facebook-line"></i>
               </li>
@@ -826,7 +828,7 @@
           </div>
         </div>
         <!-- copyright -->
-        <div class="text-center text-light-color pt-20 pb-4">
+        <div class="footer-title text-center text-light-color pt-20 pb-4">
           <p>@cd.kaushal. All rights reserved.</p>
         </div>
       </footer>
@@ -836,6 +838,8 @@
       </a>
     </main>
 
+    <!-- scrollreveal -->
+    <script src="https://unpkg.com/scrollreveal"></script>
     <!-- Swiper JS -->
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
     <!-- mixitup js -->
