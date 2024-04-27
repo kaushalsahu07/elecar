@@ -590,6 +590,10 @@ video {
   }
 }
 
+.visible {
+  visibility: visible;
+}
+
 .fixed {
   position: fixed;
 }
@@ -660,6 +664,10 @@ video {
 
 .top-60 {
   top: 15rem;
+}
+
+.top-28 {
+  top: 7rem;
 }
 
 .-z-10 {
@@ -1345,6 +1353,26 @@ body {
 }
 
 @media not all and (min-width: 640px) {
+  .max-sm\:absolute {
+    position: absolute;
+  }
+
+  .max-sm\:right-0 {
+    right: 0px;
+  }
+
+  .max-sm\:right-10 {
+    right: 2.5rem;
+  }
+
+  .max-sm\:h-80 {
+    height: 20rem;
+  }
+
+  .max-sm\:h-96 {
+    height: 24rem;
+  }
+
   .max-sm\:w-\[19\.5rem\] {
     width: 19.5rem;
   }
