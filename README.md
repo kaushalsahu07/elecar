@@ -58,8 +58,8 @@ npm run watch
 **Contact & contribution**
 - Found an issue or want to contribute? Open a GitHub issue or a PR.
 - Author contact: kaushalsahu.me@gmail.com
-- Linkedin: [@kaushalsahu07](www.linkedin.com/in/kaushalsahu07)
-- Instagram: [@cd.kaushal](https://www.instagram.com/cd.kaushal?igsh=cTVram1ia3Vvamxz)
+- Linkedin: [@kaushalsahu07](https://www.linkedin.com/in/kaushalsahu07/)
+- Instagram: [@cd.kaushal](https://www.instagram.com/cd.kaushal/)
 - Portfolio: [Website Link ](https://kaushalsahu.tech/)
 - X (Tweeter): [@kaushalsahu_07](https://x.com/kaushalsahu_07?t=7nk-jApWrJkgW6YwklJZWQ&s=09)
 
